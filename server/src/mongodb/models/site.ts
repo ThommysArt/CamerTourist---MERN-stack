@@ -4,7 +4,7 @@ const Site = new mongoose.Schema({
     name: {type: String, required: true},
     location: {type: String, required: true},
     description: {type: String, required: true},
-    image: {type: Image, required: true},
+    images: {type: String, required: true},
     category: {type: mongoose.Schema.Types.ObjectId, ref: 'Category'},
 })
 
